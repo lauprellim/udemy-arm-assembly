@@ -1,5 +1,6 @@
 	// there are two ways to pass parameters: through a register
-	// or on the stack.
+	// or on the stack. This is going to show how to pass them
+	// through a register, it's the simpler method.
 	
 	.text
 	.global main
