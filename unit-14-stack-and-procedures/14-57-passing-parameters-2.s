@@ -1,4 +1,7 @@
 	// we are going to sum elements in an array!
+	// in this method we pass parameters through registers,
+	// as before. In -3, we will pass parameters on the
+	// stack.
 	
 	.data
 array:	.quad 1000, 1001, 1002, 1003
