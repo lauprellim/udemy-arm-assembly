@@ -56,6 +56,8 @@ main:
 	ldr x0, [x0]
 	adr x1, array
 	// we push pair (stp) x0 and x1 on the stack
+	// Remember that x0 is going to be pass by value (4)
+	// and x1 is going to be pass by reference (&array)
 	stp x0, x1, [sp]
 
 	// so the stack will contain:
